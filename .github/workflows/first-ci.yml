@@ -11,3 +11,4 @@ jobs:
           echo "Коммит сделан: ${{ github.sha }}"
           echo "Ветка: ${{ github.ref_name }}"
           python3 --version
+  exit 1
